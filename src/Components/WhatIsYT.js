@@ -25,7 +25,7 @@ class Resume extends Component {
     return (
       <section id="whatisyt">
 
-      <div className="row education">
+      {/* <div className="row education">
          <div className="three columns header-col">
             <h1><span>Education</span></h1>
          </div>
@@ -70,7 +70,10 @@ class Resume extends Component {
 					</ul>
 				</div>
 			</div>
-      </div>
+      </div> */}
+      <h1 style={{textAlign:"center"}}>What is a Young Trustee?</h1>
+      <br/>
+      <h4 style={{textAlign:"center"}}>Use this space to provide a bit of information about the YT position.</h4>
    </section>
     );
   }

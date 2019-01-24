@@ -26,7 +26,7 @@ class Portfolio extends Component {
     return (
       <section id="thecampaign">
 
-      <div className="row">
+      {/* <div className="row">
 
          <div className="twelve columns collapsed">
 
@@ -36,7 +36,9 @@ class Portfolio extends Component {
                 {projects}
             </div>
           </div>
-      </div>
+      </div> */}
+      <h1 style={{textAlign:"center"}}>About The Campaign</h1>
+      <h4 style={{textAlign:"center"}}>Use this space to elaborate on the issues the campaign wishes to highlight.</h4>
    </section>
     );
   }
